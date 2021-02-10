@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<!-- CSS property to place div 
+            side by side -->
+<style>
+#header
+{
+  background:Salmon;
+  width:100%;
+  height:30px;
+}
+.logo {
+	float: left;
+	background: white;
+	width: 100%;
+	height: 70px;
+}
+
+.test{
+   background:red;
+   width:100%;
+   height:50px;
+}
+
+
+#col1 {
+	float: right;
+	background: midnightblue;
+	width: 100%;
+	height: 30px;
+}
+
+.info3 {
+	width: 16.66%;
+	height: 30px;
+	border-bottom: #300 2px solid;
+	background: #936;
+	float: left;
+}
+.info4 {
+	width: 16.66%;
+	height: 30px;
+	border-bottom: #300 2px solid;
+	background: #936;
+	float: left;
+}
+
+.info3 ol {
+	margin: 0px;
+	padding: 0px;
+}
+
+.info3 ol li {
+	width: 130px;
+	height: 25px;
+	/* background: #300; */
+	float: left;
+	margin-left: 40px;
+	margin-top: 3px;
+	list-style: none;
+	text-align: center;
+	/* line-height: 52px; */
+	/* border: #099 2px solid; */
+	/* border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px; */
+}
+.info4 ol {
+	margin: 0px;
+	padding: 0px;
+}
+
+.info4 ol li {
+	width: 130px;
+	height: 25px;
+	/* background: #300; */
+	float: left;
+	margin-left: 40px;
+	margin-top: 3px;
+	list-style: none;
+	/* text-align: center; */
+	/* line-height: 52px;
+	border: #099 2px solid;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px; */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background:blue;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; 
+}
+
+.info4:hover .dropdown-content {
+  display: block;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+ 
+</style>
+</head>
+
+<body>
+
+    <div id="header">
+    </div>
+	<div class="logo">
+		<figure><img src="limra_public.png" height="50px"></figure>
+	</div>
+
+<div id="col1">
+		<h3 style="margin-left: 300px;margin-top:2px; color: white; font-size:20px; "><a href="new_admission.jsp">New Admission</a><a href="login.jsp"style="margin-left: 100px">Student Login</a><a href="administrativeform.jsp"style="margin-left: 100px">Administrative Register</a></h3>
+   </div>
+   
+	
+	<div class="info3">
+		<ol>
+			<font color="#936">
+				<li><a href="home.jsp">HOME</a></li>
+			</font>
+		 </ol>
+	  </div>
+	
+	<div class="info3">
+		<ol>
+			<font color="#936">
+				<li><a href="about.jsp">ABOUT</a></li>
+			</font>
+		 </ol>
+	  </div>
+	  
+	  <div class="info3">
+		<ol>
+			<font color="#936">
+				<li><a href="gallary.jsp">GALLERY</a></li>
+			</font>
+		 </ol>
+	  </div>
+	  
+	  <div class="info4">
+		<ol>
+			<font >
+				<li><a href="#">INST.LOGIN
+				<div class="dropdown-content">
+				  <ul>
+				    <font size="+1" color="#000000">
+				     <li><a href="Adminlogin.jsp">Admin login</a></li>
+				     <br>
+				     <li><a href="Facultylogin.jsp">Faculty login</a></li>
+				    </font>
+			      </ul>
+			      </div>
+			     </a></li>
+			  </font>
+		 </ol>
+	  </div>   
+			     
+		<div class="info3">
+		      <ol>
+			   <font color="#936"> 
+                <li><a href="service.jsp">SERVICE</a></li>
+                </font>
+		    </ol>
+	    </div>
+	    
+            <div class="info3">
+		      <ol>
+			   <font color="#936">  
+				<li><a href="achievement.jsp">ACHIEVEMENT</a></li>
+              </font>
+		    </ol>
+	    </div>
+	
+</body>
+</html>
+
+
