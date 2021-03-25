@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.abox
+{
+	height:20px;
+	background-color: blue;
+	
+}
+.bbox
+{
+	
+	background-color:#5f83d8;;
+	
+}
+
+.cbox
+{
+	height:500px;
+	background-color:#ff80ff;;
+	
+}
+.ebox
+{
+	
+	background-color:#c0c0c0;;
+	
+}
+.arow
+{
+	height:100px;
+	background-color:#c0c0c0;;
+	
+}
+.adiv
+{
+	border: 1px solid red;
+}
+footer {
+  background-color: #727272;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+.padding {
+  padding-top: 2rem;
+}
+
+footer {
+  color: #d5d5d5;
+}
+
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+hr.light1 {
+  border-top: 1px solid #d5d5d5;
+  width:90%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+  .social a{
+  font-size:2.5em;
+  padding:1.2rem;
+  }
